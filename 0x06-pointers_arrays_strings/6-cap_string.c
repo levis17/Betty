@@ -1,11 +1,11 @@
 #include "main.h"
 /**
 * cap_string - Capitalizes all words of a string.
-* @str: The string to be capitalized.
+* @s: The string to be capitalized.
 *
 * Return: Address of ztring.
 */
-char *cap_string(char *str)
+char *cap_string(char *s)
 {
 	int i = 0, j;
 	char a[] = " \t\n,;.!?\"(){}";
