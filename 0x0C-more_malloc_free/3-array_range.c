@@ -5,7 +5,6 @@
 * ordered from min to max, inclusive.
 * @min: The first value of the array.
 * @max: The last value of the array.
-* @size: The size of the memory to print.
 *
 * Return: If min > max or the function fails - NULL.
 * Otherwise - a pointer to the newly created array.
