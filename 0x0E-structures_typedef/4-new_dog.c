@@ -17,7 +17,9 @@ int _strlen(char *str)
 	while (*str++)
 		len++;
 
-	return (len);}
+	return (len);
+}
+
 /**
 * _strcopy - Copies a string pointed to by src, including the
 * terminating null byte, to a buffer pointed to by dest.
@@ -62,6 +64,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 		free(doggo);
 		return (NULL);
 	}
+
 	doggo->owner = malloc(sizeof(char) * (_strlen(owner) + 1));
 	if (doggo->owner == NULL)
 	{
