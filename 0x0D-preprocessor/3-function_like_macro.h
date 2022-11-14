@@ -1,5 +1,6 @@
-#ifndef FUNCTION_LIKE_MACRO_H
-#define FUNCTION_LIKE_MACRO_H
-#define ABS(x) ((x) < 0 ? (-x) : (x))
-typedef int make_c_happy;
+#ifndef function_like_macro_h
+#define function_like_macro_h
+
+#define ABS(x) (((x) < (0)) ? ((x) * (-1)) : (x))
+
 #endif
