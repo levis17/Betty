@@ -1,5 +1,6 @@
 #include "lists.h"
-
+#include <stdio.h>
+#include <stdlib.h>
 /**
 * free_listint - Frees a list of nodes
 * @head: Pointer to the first element of the list
