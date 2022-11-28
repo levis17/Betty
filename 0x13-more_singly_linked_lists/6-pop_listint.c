@@ -1,4 +1,6 @@
 #include "lists.h"
+#include <stdio.h>
+#include <stdlib.h>
 /**
 * pop_listint - Deletes the first element of a list
 * @head: pointer to the first node of the list
