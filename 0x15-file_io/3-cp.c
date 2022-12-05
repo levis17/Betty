@@ -34,7 +34,7 @@ int main(int arc, char **arv)
 	{
 		l_read = read(file_from, content, 1024);
 		if (l_read == -1)
-		{ 
+		{
 			dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", arv[1]);
 			exit(98);
 		}
