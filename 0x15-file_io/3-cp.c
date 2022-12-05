@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <stdlib.h>
 /**
 * main - copy info from file_from to file_to.
 * @arc: number of arguments
