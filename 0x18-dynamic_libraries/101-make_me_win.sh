@@ -1,3 +1,3 @@
 #!/bin/bash
-wget -P /tmp/ https://raw.github.com/zeus-kronos/alx-low_level_programming/master/0x18-dynamic_libraries/iwin.so
+wget -P /tmp/ https://raw.github.com/levis17/alx-low_level_programming/master/0x18-dynamic_libraries/iwin.so
 export LD_PRELOAD=/tmp/iwin.so
